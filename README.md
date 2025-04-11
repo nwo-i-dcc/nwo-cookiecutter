@@ -6,6 +6,8 @@ your project files. Feel free to adapt the structure to your
 needs, but keep in mind that having standard names for things
 helps yourself and others to find things. 
 
+The template assumes a UNIX operating system like Mac OS or Linux.
+
 # Directory structure
 
     ├── README.md          <- The top-level README.md file for information about the project.

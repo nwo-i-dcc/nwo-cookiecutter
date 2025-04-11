@@ -1,0 +1,7 @@
+{
+    "project_name": "What is the name of your project?",
+    "repo_name": "Give a name to the Python package of your project (one word)",
+    "author_name": "Your name (or your organization/company/team)",
+    "email": "Your email address",
+    "description": "A short description of the project"
+}

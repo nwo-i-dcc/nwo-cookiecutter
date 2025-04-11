@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = '{{cookiecutter.repo_name}}'
+version = "0.1"
+dependencies = [
+    "argparse", 
+]
+authors = [
+  { name='{{cookiecutter.author_name}}', email='{{cookiecutter.email}}' },
+]
+description = '{{cookiecutter.description}}'
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+
+[tool.setuptools]
+include-package-data = true
+packages = ["{{cookiecutter.repo_name}}"]
+
+[project.scripts]
+hello = '{{cookiecutter.repo_name}}.scripts.hello:hello'

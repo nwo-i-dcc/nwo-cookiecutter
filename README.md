@@ -54,9 +54,10 @@ The template assumes a UNIX operating system like Mac OS or Linux.
 # Create your project directory
 
 You can create your own project directory following this directory structure
-using the cookiecutter program. Open a terminal and go to the directory
-where you want to create your new project (for example `~/Projects/`).
-Then run `cookiecutter` with the URL of the template:
+using [the cookiecutter program](https://cookiecutter.readthedocs.io/en/stable/). 
+Open a terminal and go to the directory where you want to create your new 
+project (for example `~/Projects/`). Then run `cookiecutter` with the URL 
+of the template:
 ```
 cookiecutter https://github.com/nwo-i-dcc/nwo-cookiecutter
 ```

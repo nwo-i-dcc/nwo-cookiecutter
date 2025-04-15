@@ -6,6 +6,11 @@ your project files. Feel free to adapt the structure to your
 needs, but keep in mind that having standard names for things
 helps yourself and others to find things. 
 
+This README.md file explains the basics of the cookiecutter 
+template. A more elaborate example of using this template can
+be found in [the workshop "Manage your research 
+project"](https://nwo-i-dcc.github.io/workshop-manage-research-project). 
+
 The template assumes a UNIX operating system like Mac OS or Linux.
 
 # Directory structure

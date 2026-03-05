@@ -23,7 +23,7 @@ classifiers = [
 
 [tool.setuptools]
 include-package-data = true
-packages = ["{{cookiecutter.repo_name}}"]
+packages = ["{{cookiecutter.repo_name}}","{{cookiecutter.repo_name}}.scripts"]
 
 [project.scripts]
 hello = '{{cookiecutter.repo_name}}.scripts.hello:hello'
